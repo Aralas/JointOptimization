@@ -91,22 +91,28 @@ class PreActResNet(chainer.Chain):
         super().__init__()
         kwargs = {'initialW': normal.HeNormal(scale=1.0)}
 
-        block = [5, 5, 5]
-        filters = [32, 32, 64, 128]
+        # block = [5, 5, 5]
+        # filters = [32, 32, 64, 128]
+
+        block = [4, 4]
+        filters = [32, 32, 64]
 
         with self.init_scope():
             self.conv1 = L.Convolution2D(None, filters[0], 3, 1, 1, **kwargs, nobias=True)
             self.res2 = BuildingBlock(block[0], filters[0], filters[1], 1, **kwargs)
             self.res3 = BuildingBlock(block[1], filters[1], filters[2], 2, **kwargs)
-            self.res4 = BuildingBlock(block[2], filters[2], filters[3], 2, **kwargs)
-            self.bn4 = L.BatchNormalization(filters[3])
-            self.fc5 = L.Linear(filters[3], 10)
+            self.bn4 = L.BatchNormalization(filters[2])
+            self.fc5 = L.Linear(filters[2], 10)
+            # self.res4 = BuildingBlock(block[2], filters[2], filters[3], 2, **kwargs)
+            # self.bn4 = L.BatchNormalization(filters[3])
+            # self.fc5 = L.Linear(filters[3], 10)
 
         self.functions = collections.OrderedDict([
             ('conv1', [self.conv1]),
             ('res2', [self.res2]),
-            ('res3', [self.res3]),
-            ('res4', [self.res4, self.bn4, F.relu]),
+            ('res3', [self.res3, self.bn4, F.relu]),
+            # ('res3', [self.res3]),
+            # ('res4', [self.res4, self.bn4, F.relu]),
             ('pool4', [R._global_average_pooling_2d]),
             ('fc5', [self.fc5]),
         ])
