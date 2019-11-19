@@ -140,6 +140,9 @@ def main():
     test_evaluator = extensions.Evaluator(test_iter, model, device=args.gpu)
     results = test_evaluator()
     print('Test accuracy:', results['main/accuracy'])
+    file = open(args.out + '/test_accuracy.txt', 'a+')
+    file.write(str(results['main/accuracy']))
+    file.close()
 
 
 if __name__ == '__main__':
