@@ -2,134 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fb39c0-ebe1-47e9-98a5-d0cd05489a50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accuracy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn07/labels.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn07/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn07/snapshot_epoch_200" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn07/soft_labels.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn50_resnet20/labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn50_resnet20/labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn50_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn50_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn50_resnet20/snapshot_epoch_200" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn50_resnet20/snapshot_epoch_200" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn50_resnet20/soft_labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn50_resnet20/soft_labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn73_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn73_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90/labels.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90/snapshot_epoch_200" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90/soft_labels.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90_resnet20/labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn90_resnet20/labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn90_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90_resnet20/snapshot_epoch_200" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn90_resnet20/snapshot_epoch_200" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn90_resnet20/soft_labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn90_resnet20/soft_labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn91_resnet20/labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn91_resnet20/labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn91_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn91_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn91_resnet20/snapshot_epoch_200" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn91_resnet20/snapshot_epoch_200" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn91_resnet20/soft_labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn91_resnet20/soft_labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn92_resnet20/labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn92_resnet20/labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn92_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn92_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn92_resnet20/snapshot_epoch_200" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn92_resnet20/snapshot_epoch_200" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn92_resnet20/soft_labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn92_resnet20/soft_labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn93_resnet20/labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn93_resnet20/labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn93_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn93_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn93_resnet20/snapshot_epoch_200" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn93_resnet20/snapshot_epoch_200" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_sn93_resnet20/soft_labels.npy" beforeDir="false" afterPath="$PROJECT_DIR$/first_sn93_resnet20/soft_labels.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn07/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn07/snapshot_epoch_120" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn50_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn50_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn50_resnet20/snapshot_epoch_120" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn50_resnet20/snapshot_epoch_120" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn90/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn90/snapshot_epoch_120" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn90_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn90_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn90_resnet20/snapshot_epoch_120" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn90_resnet20/snapshot_epoch_120" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn91_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn91_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn91_resnet20/snapshot_epoch_120" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn91_resnet20/snapshot_epoch_120" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn92_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn92_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn92_resnet20/snapshot_epoch_120" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn92_resnet20/snapshot_epoch_120" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn93_resnet20/log" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn93_resnet20/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_sn93_resnet20/snapshot_epoch_120" beforeDir="false" afterPath="$PROJECT_DIR$/second_sn93_resnet20/snapshot_epoch_120" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_step_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_step_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accuracy.py" beforeDir="false" afterPath="$PROJECT_DIR$/accuracy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mean.npy" beforeDir="false" afterPath="$PROJECT_DIR$/mean.npy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/first_step_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="196" column="43" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-                <element signature="e#336#734#0" />
-                <element signature="e#786#1060#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/accuracy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#97#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../PU_distillation_noisy_label/train_teacher_model.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_step_train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3752">
-              <caret line="145" selection-start-line="145" selection-end-line="145" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#99#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../PU_distillation_noisy_label/train_student_model.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/net.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2324">
-              <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,45 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/../Co-teaching/main.py" />
-        <option value="$PROJECT_DIR$/../Co-teaching/data/utils.py" />
-        <option value="$PROJECT_DIR$/net.py" />
-        <option value="$PROJECT_DIR$/first_step_train.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/second_step_train.py" />
-        <option value="$PROJECT_DIR$/run.sh" />
-        <option value="$PROJECT_DIR$/accuracy.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-223" />
-    <option name="y" value="367" />
-    <option name="width" value="1940" />
-    <option name="height" value="910" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JointOptimization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JointOptimization" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1Tq0cOpZ4zTS9uqfe5mYWTlCMeb" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -266,6 +109,7 @@
       <workItem from="1569397815993" duration="1671000" />
       <workItem from="1569405574204" duration="1381000" />
       <workItem from="1570408849131" duration="1549000" />
+      <workItem from="1574172404830" duration="1517000" />
     </task>
     <task id="LOCAL-00001" summary="fix minor error">
       <created>1564371860289</created>
@@ -284,37 +128,19 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25453000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-178" y="294" width="1552" height="728" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2951807" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32998326" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998326" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix minor error" />
@@ -322,100 +148,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="change to ResNet 20" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JointOptimization$accuracy.coverage" NAME="accuracy Coverage Results" MODIFIED="1570409800091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Co-teaching/data/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4300">
-          <caret line="178" column="49" selection-start-line="178" selection-start-column="49" selection-end-line="178" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Co-teaching/data/cifar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Co-teaching/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="299" column="14" selection-start-line="299" selection-start-column="14" selection-end-line="299" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_sn93_resnet20/result.txt" />
-    <entry file="file://$PROJECT_DIR$/../PU_distillation_noisy_label/train_teacher_model.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_step_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3752">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#99#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PU_distillation_noisy_label/train_student_model.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2324">
-          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_step_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="196" column="43" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#336#734#0" />
-            <element signature="e#786#1060#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accuracy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#97#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/JointOptimization$accuracy.coverage" NAME="accuracy Coverage Results" MODIFIED="1574218103580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
