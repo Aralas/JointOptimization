@@ -201,7 +201,6 @@ def main():
 
     train_val_d, _ = get_cifar10()
     train_d, val_d = train_val_split(train_val_d, int(len(train_val_d)*0.8))
-    print(train_d.shape)
 
     if os.path.exists(args.mean):
         mean = np.load(args.mean)
